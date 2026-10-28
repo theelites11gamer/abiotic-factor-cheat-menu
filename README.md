@@ -10,6 +10,10 @@ Status: 0.8.4 was play-tested in the Mod Editor, and its mod.io cloud cook succe
 
 The menu's commands are the Mod Editor's own cheat-command Blueprints (`/Game/Blueprints/GameCommands/...`). They are Deep Field Games' work and ship only with the Mod Editor, so this repo doesn't include copies of them. Instead, `setup/copy_game_commands.py` makes the 139 copies from your own Mod Editor install. The finished mod on mod.io contains them in cooked form, the way every Mod Editor mod ships game content it builds on.
 
+## License
+
+The mod's own work in this repo (the menu, the Cheat Remote, the scripts and the docs) is under the [MIT License](LICENSE). That doesn't cover Abiotic Factor itself. The game's assets, the command Blueprints the setup script copies, and the game text and item data the mod refers to all belong to Deep Field Games.
+
 ## Setup
 
 You need the Abiotic Factor Mod Editor (free, from the Epic Games launcher).
