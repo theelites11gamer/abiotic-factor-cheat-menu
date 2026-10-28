@@ -1,0 +1,417 @@
+{
+  "version": "0.8",
+  "size": [
+    600,
+    0
+  ],
+  "subtitle": "Hold the Cheat Remote and click to open  |  Esc closes",
+  "host_note": "Single player / host",
+  "tabs": [
+    [
+      "Player",
+      "PLAYER"
+    ],
+    [
+      "Survival",
+      "SURVIVAL"
+    ],
+    [
+      "Items",
+      "ITEMS"
+    ],
+    [
+      "World",
+      "WORLD"
+    ],
+    [
+      "All",
+      "ALL"
+    ]
+  ],
+  "toggles": [
+    [
+      "GodMode",
+      "God mode",
+      "You can't take damage."
+    ],
+    [
+      "InfiniteStamina",
+      "Infinite stamina",
+      "Sprint and swing without running out of stamina."
+    ],
+    [
+      "InfiniteAmmo",
+      "Infinite ammo",
+      "Weapons never run out of ammunition."
+    ],
+    [
+      "FreeCrafting",
+      "Free crafting",
+      "Craft without materials, see every recipe, and build instantly."
+    ],
+    [
+      "DisableStateDrain",
+      "No survival drain",
+      "Hunger, thirst and other needs stop going down."
+    ],
+    [
+      "NPCsIgnorePlayer",
+      "Enemies ignore you",
+      "NPCs won't target you."
+    ],
+    [
+      "Ghost",
+      "Ghost / noclip",
+      "Fly through walls. Use jump and crouch to go up and down."
+    ],
+    [
+      "MasterKey",
+      "Master key",
+      "Open keypads and locked doors without the key or code."
+    ]
+  ],
+  "actions": [
+    [
+      "HealRevive",
+      "Heal & revive",
+      "Restore health, including limbs."
+    ],
+    [
+      "FullAmmo",
+      "Refill ammo",
+      "Fill the magazine of the weapon in your hand."
+    ],
+    [
+      "RepairHeldItem",
+      "Repair held item",
+      "Fully repair the item in your hand."
+    ],
+    [
+      "FillBattery",
+      "Recharge held item",
+      "Fully charge the item in your hand."
+    ]
+  ],
+  "restore_tip": "Heal, then fill food, water, rest and bladder and clear radiation.",
+  "stats": [
+    [
+      "Hunger",
+      "Food",
+      [
+        [
+          "Minus",
+          "-25",
+          "-25"
+        ],
+        [
+          "Plus",
+          "+25",
+          "25"
+        ],
+        [
+          "Max",
+          "FILL",
+          "200"
+        ]
+      ],
+      [
+        0.85,
+        0.55,
+        0.12,
+        1
+      ]
+    ],
+    [
+      "Thirst",
+      "Water",
+      [
+        [
+          "Minus",
+          "-25",
+          "-25"
+        ],
+        [
+          "Plus",
+          "+25",
+          "25"
+        ],
+        [
+          "Max",
+          "FILL",
+          "200"
+        ]
+      ],
+      [
+        0.15,
+        0.55,
+        0.95,
+        1
+      ]
+    ],
+    [
+      "Fatigue",
+      "Tiredness",
+      [
+        [
+          "Minus",
+          "-25",
+          "-25"
+        ],
+        [
+          "Plus",
+          "+25",
+          "25"
+        ],
+        [
+          "Max",
+          "REST",
+          "-200"
+        ]
+      ],
+      [
+        0.55,
+        0.35,
+        0.85,
+        1
+      ]
+    ],
+    [
+      "Continence",
+      "Bladder",
+      [
+        [
+          "Minus",
+          "-25",
+          "-25"
+        ],
+        [
+          "Plus",
+          "+25",
+          "25"
+        ],
+        [
+          "Max",
+          "RELIEVE",
+          "200"
+        ]
+      ],
+      [
+        0.85,
+        0.8,
+        0.2,
+        1
+      ]
+    ],
+    [
+      "Radiation",
+      "Radiation",
+      [
+        [
+          "Minus",
+          "-25",
+          "-25"
+        ],
+        [
+          "Plus",
+          "+25",
+          "25"
+        ],
+        [
+          "Max",
+          "CLEAR",
+          "-200"
+        ]
+      ],
+      [
+        0.35,
+        0.9,
+        0.25,
+        1
+      ]
+    ]
+  ],
+  "search_hint": "Search items by name or ID, e.g. battery, keypad, soup",
+  "quantities": [
+    1,
+    5,
+    10,
+    25,
+    100
+  ],
+  "time": [
+    [
+      "Hour1",
+      "+1 hour",
+      "Move the clock forward one hour."
+    ],
+    [
+      "Hour6",
+      "+6 hours",
+      "Move the clock forward six hours."
+    ],
+    [
+      "Morning",
+      "Skip to morning",
+      "Jump to the next morning."
+    ],
+    [
+      "Night",
+      "Skip to nightfall",
+      "Jump to the next nightfall."
+    ]
+  ],
+  "weather": [
+    [
+      "Fog",
+      "Fog"
+    ],
+    [
+      "RadLeak",
+      "Radiation leak"
+    ],
+    [
+      "Spores",
+      "Spores"
+    ],
+    [
+      "ColdSnap",
+      "Cold snap"
+    ],
+    [
+      "Blackout",
+      "Blackout"
+    ],
+    [
+      "BlackFog",
+      "Black fog"
+    ],
+    [
+      "Clear",
+      "Clear weather"
+    ]
+  ],
+  "colors": {
+    "backdrop": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "panel": [
+      0.006,
+      0.011,
+      0.014,
+      0.97
+    ],
+    "header": [
+      0.012,
+      0.03,
+      0.036,
+      1
+    ],
+    "well": [
+      0.003,
+      0.006,
+      0.008,
+      1
+    ],
+    "field": [
+      0.02,
+      0.04,
+      0.045,
+      1
+    ],
+    "track": [
+      0.03,
+      0.05,
+      0.055,
+      1
+    ],
+    "outline": [
+      0.04,
+      0.16,
+      0.17,
+      1
+    ],
+    "accent": [
+      0.25,
+      0.95,
+      0.85,
+      1
+    ],
+    "text": [
+      0.82,
+      0.93,
+      0.93,
+      1
+    ],
+    "dim": [
+      0.36,
+      0.5,
+      0.52,
+      1
+    ],
+    "button": [
+      0.02,
+      0.05,
+      0.058,
+      1
+    ],
+    "entry": [
+      0.02,
+      0.045,
+      0.05,
+      1
+    ],
+    "tab": [
+      0.015,
+      0.035,
+      0.04,
+      1
+    ],
+    "tab_on": [
+      0.05,
+      0.28,
+      0.28,
+      1
+    ],
+    "toggle_off": [
+      0.02,
+      0.05,
+      0.058,
+      1
+    ],
+    "toggle_on": [
+      0.03,
+      0.32,
+      0.16,
+      1
+    ],
+    "good": [
+      0.03,
+      0.2,
+      0.12,
+      1
+    ],
+    "accent_btn": [
+      0.04,
+      0.22,
+      0.22,
+      1
+    ],
+    "danger": [
+      0.25,
+      0.05,
+      0.05,
+      1
+    ],
+    "clear": [
+      0.06,
+      0.12,
+      0.14,
+      1
+    ]
+  },
+  "margin": 16,
+  "cmd_search_hint": "Search all commands, e.g. spawn, teleport, weather"
+}

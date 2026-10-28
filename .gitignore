@@ -1,0 +1,10 @@
+# Copies of the game's command Blueprints: made locally by setup/copy_game_commands.py, never committed
+ResearchDirectorI7yTl/Content/Commands/
+
+# Editor and tool output
+ResearchDirectorI7yTl/Saved/
+ResearchDirectorI7yTl/Intermediate/
+ResearchDirectorI7yTl/Binaries/
+tools/bridge/
+__pycache__/
+*.zip

@@ -1,0 +1,1727 @@
+{
+ "commands": [
+  {
+   "row": "DisableStateDrain",
+   "label": "Disable State Drain",
+   "desc": "Disables many states from draining eg. Hunger/Thirst",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DisableStateDrain",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "ModifyHunger",
+   "label": "Modify Hunger",
+   "desc": "Adds or Removes to existing Hunger value",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyHunger",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "ModifyThirst",
+   "label": "Modify Thirst",
+   "desc": "Adds or Removes to existing Thirst value",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyThirst",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "ModifyFatigue",
+   "label": "Modify Fatigue",
+   "desc": "Adds or Removes to existing Fatigue value",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyFatigue",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "ModifyContinence",
+   "label": "Modify Continence",
+   "desc": "Adds or Removes to existing Continence value",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyContinence",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "ModifyRadiation",
+   "label": "Modify Radiation",
+   "desc": "Adds or Removes to existing Radiation value",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyRadiation",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "ModifyTemperature",
+   "label": "Modify Temperature",
+   "desc": "Adds or Removes to existing Additional Ambient Temperature",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyTemperature",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "GodMode",
+   "label": "God Mode",
+   "desc": "Toggles god mode/invincibility",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleGodMode",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "ZenMode",
+   "label": "Zen Mode",
+   "desc": "Disables death, does not disable damage",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleZenMode",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "TakeDamage",
+   "label": "Take Damage",
+   "desc": "Take damage to torso",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TakeDamage",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "NPCsIgnorePlayer",
+   "label": "NPCs ignore you",
+   "desc": "Toggles Player being targetable by NPCs, if true then player is ignored",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleNPCIgnore",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "AddMoney",
+   "label": "Add Money",
+   "desc": "Add or Remove to current money",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyMoney",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "SetMoney",
+   "label": "Set Money",
+   "desc": "Set Money to specific value",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyMoney_Set",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyMoney"
+   ],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "MasterKey",
+   "label": "Master Key",
+   "desc": "Bypasses most key requirements eg. keypad hacker",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleMasterKey",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "WashOffBlood",
+   "label": "Wash Off Blood",
+   "desc": "Removes stains on player",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_WashOffBlood",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "ThirdPerson",
+   "label": "Third Person",
+   "desc": "Toggles debug third person mode",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleThirdPerson",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "FreeCrafting",
+   "label": "Free Crafting",
+   "desc": "Allows free crafting, shows all recipes, skips construction",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleFreeCrafting",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "UnlockRecipe",
+   "label": "Unlock Recipe",
+   "desc": "Unlocks the recipe",
+   "type": "OPTION",
+   "inputs": [
+    "Recipe Row"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockRecipe",
+   "parents": [],
+   "category": "Progress",
+   "debug": false
+  },
+  {
+   "row": "Ghost",
+   "label": "Ghost / noclip",
+   "desc": "Toggles noclip",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleNoClip",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "InfiniteStamina",
+   "label": "Infinite Stamina",
+   "desc": "Toggles infinite stamina",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleInfiniteStamina",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "DebugMelee",
+   "label": "Debug Melee",
+   "desc": "Toggles debug melee traces (And other visual debug)",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleDebugMelee",
+   "parents": [],
+   "category": "Debug",
+   "debug": true
+  },
+  {
+   "row": "HealRevive",
+   "label": "Heal & revive",
+   "desc": "Heal or revive self",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HealRevive",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "KillSelf",
+   "label": "Kill Self",
+   "desc": "Forces death",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_KillSelf",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "EscapeGrab",
+   "label": "Escape grab",
+   "desc": "Forces NPC to untether/release you",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EscapeGrab",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "ForceLevelLoad",
+   "label": "Force Level Load",
+   "desc": "Forces pending level loading to finish",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ForceLevelLoad",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "TeleportToPlayer",
+   "label": "Teleport To Player",
+   "desc": "Teleport to a specific player",
+   "type": "OPTION",
+   "inputs": [
+    "Player Name"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TeleportToPlayer",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Parent"
+   ],
+   "category": "Teleport",
+   "debug": false
+  },
+  {
+   "row": "TeleportToRespawn",
+   "label": "Teleport To Respawn",
+   "desc": "Teleports you to a respawn point.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Respawn",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Parent"
+   ],
+   "category": "Teleport",
+   "debug": false
+  },
+  {
+   "row": "TeleportToLocation",
+   "label": "Teleport To Location",
+   "desc": "Teleports to coordinates typed as X=0 Y=0 Z=0.",
+   "type": "OPTION",
+   "inputs": [
+    "Location in X=? Y=? Z=? format"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Location",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Parent"
+   ],
+   "category": "Teleport",
+   "debug": false
+  },
+  {
+   "row": "SpawnItem",
+   "label": "Spawn Item",
+   "desc": "Adds an item to your inventory. Pick the item, then type an amount.",
+   "type": "OPTION_VALUE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem",
+   "parents": [],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "SpawnItemOnGround",
+   "label": "Spawn Item On Ground",
+   "desc": "Drops an item at your feet. Pick the item, then type an amount.",
+   "type": "OPTION_VALUE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItemOnGround",
+   "parents": [],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "DamageHeldItem",
+   "label": "Damage Held Item",
+   "desc": "Damage item in hand",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Damage",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "BreakHeldItem",
+   "label": "Break Held Item",
+   "desc": "Break item in hand",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Break",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "RepairHeldItem",
+   "label": "Repair Held Item",
+   "desc": "Repair item in hand",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Repair",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "DrainBattery",
+   "label": "Drain Battery",
+   "desc": "Empties the battery of the item in your hand.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_DrainBattery",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Rechargeable_Parent",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "HalfBattery",
+   "label": "Half Battery",
+   "desc": "Sets the battery of the item in your hand to half.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_HalfBattery",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Rechargeable_Parent",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "FillBattery",
+   "label": "Fill Battery",
+   "desc": "Fully charges the item in your hand.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_FullBattery",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Rechargeable_Parent",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "FullAmmo",
+   "label": "Full Ammo",
+   "desc": "Fills the magazine of the weapon in your hand.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_WeaponFullAmmo",
+   "parents": [],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "DeleteHotbar",
+   "label": "Delete Hotbar",
+   "desc": "Deletes everything in your hotbar.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Hotbar",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "DeleteEquipSlots",
+   "label": "Delete Equip Slots",
+   "desc": "Deletes everything you are wearing.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Equip",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "DeleteInventory",
+   "label": "Delete Inventory",
+   "desc": "Deletes everything in your backpack.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Backpack",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "ApplyBuff",
+   "label": "Apply Buff",
+   "desc": "Gives you a buff or debuff.",
+   "type": "TWO_OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ApplyBuff",
+   "parents": [],
+   "category": "Skills & buffs",
+   "debug": false
+  },
+  {
+   "row": "RemoveBuff",
+   "label": "Remove Buff",
+   "desc": "Removes a buff or debuff from you.",
+   "type": "TWO_OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RemoveBuff",
+   "parents": [],
+   "category": "Skills & buffs",
+   "debug": false
+  },
+  {
+   "row": "AddStatModifer",
+   "label": "Add stat modifier",
+   "desc": "Adds a cheat stat modifier, such as extra speed or damage, by an amount.",
+   "type": "OPTION_VALUE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ApplyCheatStats",
+   "parents": [],
+   "category": "Skills & buffs",
+   "debug": false
+  },
+  {
+   "row": "ResetCheatStats",
+   "label": "Reset Cheat Stats",
+   "desc": "Removes every cheat stat modifier.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ResetCheatStats",
+   "parents": [],
+   "category": "Skills & buffs",
+   "debug": false
+  },
+  {
+   "row": "AddSkillXP",
+   "label": "Add Skill XP",
+   "desc": "Adds XP to a skill.",
+   "type": "OPTION_VALUE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_AddSkillXP",
+   "parents": [],
+   "category": "Skills & buffs",
+   "debug": false
+  },
+  {
+   "row": "AddSkillLevel",
+   "label": "Add Skill Level",
+   "desc": "Adds levels to a skill.",
+   "type": "OPTION_VALUE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_AddSkillLevel",
+   "parents": [],
+   "category": "Skills & buffs",
+   "debug": false
+  },
+  {
+   "row": "SetSkillLevel",
+   "label": "Set Skill Level",
+   "desc": "Sets a skill to an exact level.",
+   "type": "OPTION_VALUE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetSkillLevel",
+   "parents": [],
+   "category": "Skills & buffs",
+   "debug": false
+  },
+  {
+   "row": "RepickTraits",
+   "label": "Repick Traits",
+   "desc": "Lets you choose your traits again.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RepickTraits",
+   "parents": [],
+   "category": "Skills & buffs",
+   "debug": false
+  },
+  {
+   "row": "GiveRandomCustomization",
+   "label": "Give Random Customization",
+   "desc": "Randomizes your appearance.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RandomCustomization",
+   "parents": [],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "DebugAIDirector",
+   "label": "Debug AIDirector",
+   "desc": "Shows the AI director debug view.",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DebugAIDirector",
+   "parents": [],
+   "category": "Debug",
+   "debug": true
+  },
+  {
+   "row": "DisableNPCSpawning",
+   "label": "Disable NPC Spawning",
+   "desc": "Stops new NPCs from spawning.",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DisableNPCSpawn",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "DisableAIFreezing",
+   "label": "Disable AI Freezing",
+   "desc": "Keeps far-away NPCs active instead of freezing them.",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DisableAIFreezing",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "ClearAllCachedNPCCooldowns",
+   "label": "Clear NPC spawn cooldowns",
+   "desc": "Lets NPC spawners refill right away.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ClearAllCachedNPCCooldowns",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "SpawnLeyak",
+   "label": "Spawn Leyak",
+   "desc": "Spawns a Leyak.",
+   "type": "TWO_OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnLeyak",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "KillLookAtTarget",
+   "label": "Kill Look At Target",
+   "desc": "Enables player to destroy an NPC when the player looks at it",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_KillLookAtTarget",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "KillNearbyNPCs",
+   "label": "Kill Nearby NPCs",
+   "desc": "Kills NPCs near you.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/GameCommand_KillNearbyNPCs",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "KillAllNPCs",
+   "label": "Kill All NPCs",
+   "desc": "Kills every NPC in the loaded world.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_KillAllNPCs",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "DeleteUnkillableNPCs",
+   "label": "Delete Unkillable NPCs",
+   "desc": "Removes NPCs that cannot be killed normally.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteUnkillableNPCs",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "BeginRandomUnlockedAssault",
+   "label": "Begin Random Unlocked Assault",
+   "desc": "Starts a random base assault you have unlocked.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_BeginRandomUnlockedAssault",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "EndAssault",
+   "label": "End Assault",
+   "desc": "Ends the current base assault.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EndAssault",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "TriggerAssaultFlag",
+   "label": "Trigger Assault Flag",
+   "desc": "Sets a base-assault progress flag.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TriggerAssaultFlag",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "BeginAssault",
+   "label": "Begin Assault",
+   "desc": "Starts a specific base assault.",
+   "type": "TWO_OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_BeginAssault",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "DebugAssaultPatrolLocations",
+   "label": "Debug Assault Patrol Locations",
+   "desc": "Shows base-assault patrol points.",
+   "type": "TOGGLE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DebugAssaultPatrolLocations",
+   "parents": [],
+   "category": "Debug",
+   "debug": true
+  },
+  {
+   "row": "SpawnNPC",
+   "label": "Spawn NPC",
+   "desc": "Spawns an NPC in front of you.",
+   "type": "TWO_OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnNPC",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "ClearBloodVomit",
+   "label": "Clear Blood Vomit",
+   "desc": "Cleans blood and vomit decals.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ClearBloodVomit",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "ClearAllCorpses",
+   "label": "Clear All Corpses",
+   "desc": "Removes every corpse.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ClearAllCorpses",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "ToggleDayNightCycle",
+   "label": "Toggle Day Night Cycle",
+   "desc": "Toggles time from progressing naturally",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleDayNightCycle",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "SkipToMorning",
+   "label": "Skip To Morning",
+   "desc": "Jumps to the next morning.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SkipToMorning",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "SkipToNightfall",
+   "label": "Skip To Nightfall",
+   "desc": "Jumps to the next nightfall.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SkipToNight",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "AddTimeMinutes",
+   "label": "Add Time Minutes",
+   "desc": "Moves the clock forward by minutes.",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_AddTime_Minutes",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "DebugNearbyActors",
+   "label": "Debug Nearby Actors",
+   "desc": "Shows nearby actor debug info.",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DebugNearbyActors",
+   "parents": [],
+   "category": "Debug",
+   "debug": true
+  },
+  {
+   "row": "SkipToCheckpoint",
+   "label": "Skip To Checkpoint",
+   "desc": "Jumps story progress to a checkpoint.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SkipToCheckpoint",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "TriggerWorldFlag",
+   "label": "Trigger World Flag",
+   "desc": "Sets a world progress flag.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TriggerWorldFlag",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "RemoveWorldFlag",
+   "label": "Remove World Flag",
+   "desc": "Clears a world progress flag.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RemoveWorldFlag",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "TriggerEveryWorldFlag",
+   "label": "Trigger Every World Flag",
+   "desc": "Sets every world progress flag. Hard to undo, so back up your save.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TriggerEveryWorldFlag",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "SetWeatherEvent",
+   "label": "Set Weather Event",
+   "desc": "Starts a weather event.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetWeather",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "ClearWeatherEvent",
+   "label": "Clear Weather Event",
+   "desc": "Ends the current weather event.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ClearWeather",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "SetLevelFX",
+   "label": "Set level lighting (LevelFX)",
+   "desc": "Switches the sky, fog and lighting preset.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LevelFX_Set",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "SpawnGlobalActors",
+   "label": "Spawn Global Actors",
+   "desc": "Respawns the lighting preset actors.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LevelFX_SpawnGlobalActors",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_LevelFX_Set"
+   ],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "ResetLevelFX",
+   "label": "Reset level lighting",
+   "desc": "Puts the normal lighting back.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LevelFX_Reset",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "LevelFXDataTableTick",
+   "label": "LevelFX DataTable Tick",
+   "desc": "Live-reloads lighting presets.",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LevelFX_DatatableTick",
+   "parents": [],
+   "category": "Debug",
+   "debug": true
+  },
+  {
+   "row": "ToggleCompendiumUnlock",
+   "label": "Toggle Compendium Unlock",
+   "desc": "Shows every compendium entry while on.",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleCompendiumUnlock",
+   "parents": [],
+   "category": "Progress",
+   "debug": false
+  },
+  {
+   "row": "ResetAllVignettes",
+   "label": "Reset All Vignettes",
+   "desc": "Resets the scripted scenes so they play again.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ResetAllVignettes",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "SpawnVehicle",
+   "label": "Spawn Vehicle",
+   "desc": "Spawns a vehicle.",
+   "type": "TWO_OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnVehicle",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "ToggleHUDChat",
+   "label": "Toggle HUD Chat",
+   "desc": "Shows or hides the chat box.",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleHUDChat",
+   "parents": [],
+   "category": "Saves & HUD",
+   "debug": false
+  },
+  {
+   "row": "ToggleHUDCrosshair",
+   "label": "Toggle HUD Crosshair",
+   "desc": "Shows or hides the crosshair.",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleHUDCrosshair",
+   "parents": [],
+   "category": "Saves & HUD",
+   "debug": false
+  },
+  {
+   "row": "TriggerFacilityQuake",
+   "label": "Trigger Facility Quake",
+   "desc": "Shakes the facility.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_FacilityQuake",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "AddTutorialUIPopup",
+   "label": "Tutorial popup",
+   "desc": "Shows a tutorial popup.",
+   "type": "OPTION_TOGGLE",
+   "inputs": [
+    "Tutorial Popup Row Names",
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_AddTutorialPopup",
+   "parents": [],
+   "category": "Progress",
+   "debug": false
+  },
+  {
+   "row": "DebugWarehouseGenerator",
+   "label": "Debug Warehouse Generator",
+   "desc": "Shows warehouse generator debug info.",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DebugWarehouseGenerator",
+   "parents": [],
+   "category": "Debug",
+   "debug": true
+  },
+  {
+   "row": "SpawnFish",
+   "label": "Spawn Fish",
+   "desc": "Gives you a fish.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnFish",
+   "parents": [],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "UnlockAllFish",
+   "label": "Unlock All Fish",
+   "desc": "Marks every fish as caught.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockAllFish",
+   "parents": [],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "SpawnSetBonus",
+   "label": "Spawn Set Bonus",
+   "desc": "Gives you a full armour set.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnSetBonus",
+   "parents": [],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "SpawnRecipeItems",
+   "label": "Spawn Recipe Items",
+   "desc": "Gives you the ingredients for a recipe.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnRecipeItems",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "SpawnSoupItems",
+   "label": "Spawn Soup Items",
+   "desc": "Gives you the ingredients for a soup.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnSoupItems",
+   "parents": [],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "SpawnTrader",
+   "label": "Spawn Trader",
+   "desc": "Spawns the closest trader, if a name is set it prefers that",
+   "type": "OPTION",
+   "inputs": [
+    "Trader Row Name"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnTrader",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "ToggleLeyakDebug",
+   "label": "Toggle Leyak Debug",
+   "desc": "Shows Leyak debug info.",
+   "type": "TOGGLE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleLeyakDebug",
+   "parents": [],
+   "category": "Debug",
+   "debug": true
+  },
+  {
+   "row": "InfiniteAmmo",
+   "label": "Infinite Ammo",
+   "desc": "Toggles infinite ammo",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleInfiniteAmmo",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "SpawnItemEquipped",
+   "label": "Spawn Item Equipped",
+   "desc": "Spawns an item straight into your hands.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItemEquipped",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "ForceAllLevelsLoaded",
+   "label": "Force All Levels Loaded",
+   "desc": "Forces every level in the game to load",
+   "type": "TOGGLE",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ForceAllLevelsLoad",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "RemoveEveryWorldFlag",
+   "label": "Remove Every World Flag",
+   "desc": "Clears every world progress flag. Hard to undo, so back up your save.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RemoveEveryWorldFlag",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "ApplyTrait",
+   "label": "Apply Trait",
+   "desc": "Gives you a trait.",
+   "type": "TWO_OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ApplyTrait",
+   "parents": [],
+   "category": "Skills & buffs",
+   "debug": false
+  },
+  {
+   "row": "FillLiquid",
+   "label": "Fill Liquid",
+   "desc": "Fills the liquid container in your hand.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LiquidContainer_Fill",
+   "parents": [],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "CheckRandomWeather",
+   "label": "Check Random Weather Event",
+   "desc": "Tries to trigger a random weather event as though the next day for weather has started",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RandomWeather",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "BreakEquippedGears",
+   "label": "Break Gear All",
+   "desc": "Break all equipped armor pieces",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_BreakAll",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "DamageRandomGear",
+   "label": "Damage Gear Random",
+   "desc": "Damage random equipped armor piece",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Damage_Random",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "BreakRandomEquippedGear",
+   "label": "Break Gear Random",
+   "desc": "Break random equipped armor piece",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Break_Random",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "DamageAllEquippedGears",
+   "label": "Damage Gear All",
+   "desc": "Damage all equipped armor pieces",
+   "type": "VALUE",
+   "inputs": [
+    "Value"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_DamageAll",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Parent"
+   ],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "UnlockCompendium",
+   "label": "Unlock Compendium",
+   "desc": "Unlocks one compendium entry.",
+   "type": "TWO_OPTION",
+   "inputs": [
+    "Compendium Unlock Row Name",
+    "Unlock Type"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockCompendium",
+   "parents": [],
+   "category": "Progress",
+   "debug": false
+  },
+  {
+   "row": "UnlockAllCompendium",
+   "label": "Unlock All Compendium",
+   "desc": "Unlock all compendium entries in either a read or unread state",
+   "type": "OPTION",
+   "inputs": [
+    "Unlock as unread or mark as read"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockAllCompendium",
+   "parents": [],
+   "category": "Progress",
+   "debug": false
+  },
+  {
+   "row": "CameraSmoothing",
+   "label": "Camera Smoothing",
+   "desc": "Smooths camera movement.",
+   "type": "TOGGLE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleCameraSmoothing",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "CameraSmoothingSpeed",
+   "label": "Camera Smoothing Speed",
+   "desc": "Sets how strong camera smoothing is.",
+   "type": "VALUE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCameraSmoothingSpeed",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "UnlockJournal",
+   "label": "Unlock Journal",
+   "desc": "Unlock a specific journal entry",
+   "type": "OPTION",
+   "inputs": [
+    "Journal entry name"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockJournal",
+   "parents": [],
+   "category": "Progress",
+   "debug": false
+  },
+  {
+   "row": "UnlockAllJournal",
+   "label": "Unlock All Journal",
+   "desc": "Unlock all journal entries",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockAllJournal",
+   "parents": [],
+   "category": "Progress",
+   "debug": false
+  },
+  {
+   "row": "GoToPortalResetTime",
+   "label": "Go To Portal Reset Time",
+   "desc": "Moves time to the next portal-world reset.",
+   "type": "EXEC",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_GoToPortalReset",
+   "parents": [],
+   "category": "World & time",
+   "debug": false
+  },
+  {
+   "row": "SetBeardCustomization",
+   "label": "Set Beard Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_Beards",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetBeltCustomization",
+   "label": "Set Belt Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_Belts",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetHairColorCustomization",
+   "label": "Set Hair Color Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_HairColor",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetHairStyleCustomization",
+   "label": "Set Hair Style Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_HairStyle",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetHeadCustomization",
+   "label": "Set Head Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_Head",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetHeadAccessoryCustomization",
+   "label": "Set Head Accessory Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_HeadAccessory",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetLowerBodyCustomization",
+   "label": "Set Lower Body Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_LowerBody",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetShirtColorCustomization",
+   "label": "Set Shirt Color Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ShirtColor",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetShoesCustomization",
+   "label": "Set Shoes Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_Shoes",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetTieCustomization",
+   "label": "Set Tie Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_Tie",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetUpperBodyCustomization",
+   "label": "Set Upper Body Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_UpperBody",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetCustomizationPreset",
+   "label": "Set Customization Preset",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomizationPreset",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SetIDCardCustomization",
+   "label": "Set ID Card Customization",
+   "desc": "Changes your appearance.",
+   "type": "OPTION",
+   "inputs": [
+    "RowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_IDCard",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Look",
+   "debug": false
+  },
+  {
+   "row": "SpawnChemistryItems",
+   "label": "Spawn Chemistry Items",
+   "desc": "Gives you chemistry ingredients.",
+   "type": "OPTION_VALUE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnChemistryItems",
+   "parents": [],
+   "category": "Items",
+   "debug": false
+  },
+  {
+   "row": "PetGodmode",
+   "label": "Pet God Mode",
+   "desc": "Toggles god mode/invincibility for all tamed pets",
+   "type": "TOGGLE",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TogglePetGodMode",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "SetPetXP",
+   "label": "Set Pet XP",
+   "desc": "Set the exact XP level of a pet you are holding or looking at",
+   "type": "VALUE",
+   "inputs": [
+    "XP"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetPetXP",
+   "parents": [],
+   "category": "NPCs & pets",
+   "debug": false
+  },
+  {
+   "row": "ToggleMouseMovement",
+   "label": "Random mouse movement",
+   "desc": "Toggles the player view rotation to change randomly",
+   "type": "EXEC",
+   "inputs": [
+    "Enabled (No Param = Toggle)"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleMouseMovement",
+   "parents": [],
+   "category": "Player",
+   "debug": false
+  },
+  {
+   "row": "SetTrackedQuestLine",
+   "label": "Track Quest Line",
+   "desc": "Sets the quest line you are tracking.",
+   "type": "OPTION",
+   "inputs": [],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_Quest_TrackingSet",
+   "parents": [],
+   "category": "Progress",
+   "debug": false
+  },
+  {
+   "row": "SpawnItemTextureVariant",
+   "label": "Spawn Item Texture Variant",
+   "desc": "Spawns an item with a specific skin.",
+   "type": "TWO_OPTION",
+   "inputs": [
+    "ItemRowName",
+    "TextureVariantRowName"
+   ],
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem_TextureVariant",
+   "parents": [
+    "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+   ],
+   "category": "Items",
+   "debug": false
+  }
+ ],
+ "excluded": {
+  "SetSkillXP": "not implemented",
+  "SpawnNPCAngry": "not implemented",
+  "SpawnNPCPossess": "not implemented",
+  "RefreshLevelFXList": "not implemented",
+  "DeleteWorldSave": "not implemented",
+  "DebugVehicles": "not implemented",
+  "AddTutorialUIPopupForce": "not implemented",
+  "FindTrader": "not implemented",
+  "SpawnEqsTest": "not implemented",
+  "Shortcuts": "editor panel",
+  "CustomShortcuts": "editor panel",
+  "MarketingShortcuts": "editor panel",
+  "ShowNPCHealth": "editor-only asset",
+  "ShowBuffs": "editor-only asset",
+  "ToggleCamcorderShake": "editor-only asset",
+  "SpawnDamageCube": "editor-only asset",
+  "RemoveDamageCubes": "editor-only asset",
+  "DebugWeatherCulling": "editor-only asset",
+  "PhotoAllNPCs": "editor-only asset",
+  "ShaderCacheParticles": "editor-only asset",
+  "ShaderCacheMaterials": "editor-only asset",
+  "ShaderCacheResource": "editor-only asset",
+  "ShaderCacheNPC": "developer tool",
+  "ShaderCacheProjectiles": "developer tool",
+  "ShaderCacheItems": "developer tool",
+  "DestroyEdSkylight": "developer tool",
+  "RefreshAchievements": "Steam achievements",
+  "ResetAllAchivementsStats": "Steam achievements",
+  "SubmitPendingDataToSteam": "Steam achievements",
+  "AddAchivementStat": "Steam achievements",
+  "UnlockAchievement": "Steam achievements",
+  "SpawnItemNegative": "bug-test item",
+  "SpawnItemInvalid": "bug-test item",
+  "ForcePlayerSave": "blocked for mods (save system)",
+  "ForcePlayerLoad": "blocked for mods (save system)",
+  "ForceWorldSave": "blocked for mods (save system)",
+  "ForceWorldLoad": "blocked for mods (save system)",
+  "ResetCustomization": "blocked for mods (deletes a save slot)",
+  "CopyCoordinates": "blocked for mods (clipboard)",
+  "Slomo": "blocked for mods (console command)",
+  "Script": "blocked for mods (console command)",
+  "GoToTraderTime": "blocked for mods (controller variable)",
+  "TeleportAllPlayersHere": "blocked for mods (controller variable)",
+  "ToggleHUDWatermark": "blocked for mods (watermark)",
+  "AddTimeHours": "cloud cook fails (editor-only parent)",
+  "AddTimeDays": "cloud cook fails (editor-only parent)",
+  "AddTimeWeeks": "cloud cook fails (editor-only parent)",
+  "SetSkinToneCustomization": "cloud cook fails (editor-only parent)",
+  "SpawnUpgradeItems": "cloud cook fails (editor-only parent)",
+  "TeleportToDebug": "cloud cook fails (editor-only parent)",
+  "TeleportToFixit": "cloud cook fails (editor-only parent)",
+  "TeleportToNarrative": "cloud cook fails (editor-only parent)"
+ }
+}

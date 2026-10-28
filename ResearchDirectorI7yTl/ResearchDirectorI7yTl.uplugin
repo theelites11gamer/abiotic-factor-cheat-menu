@@ -1,0 +1,20 @@
+{
+	"FileVersion": 3,
+	"Version": 12,
+	"VersionName": "0.8.4",
+	"FriendlyName": "Cheat Menu",
+	"Description": "A cheat menu for Abiotic Factor made with the official Mod Editor. Craft the Cheat Remote (1 Tech Scrap + 1 Metal Scrap), hold it and left-click to open the menu. The ALL tab has 133 of the Mod Editor's built-in cheat commands.",
+	"Category": "UGC",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"NoCode": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"ExplicitlyLoaded": true,
+	"EngineVersion": "5.4.4-1050002+++DF+ABF"
+}

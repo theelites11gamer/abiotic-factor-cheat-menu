@@ -1,0 +1,699 @@
+{
+ "commands": [
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DisableStateDrain",
+   "copy": "BP_DirectorDisableStateDrain",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyHunger",
+   "copy": "BP_DirectorModifyHunger",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyThirst",
+   "copy": "BP_DirectorModifyThirst",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyFatigue",
+   "copy": "BP_DirectorModifyFatigue",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyContinence",
+   "copy": "BP_DirectorModifyContinence",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyRadiation",
+   "copy": "BP_DirectorModifyRadiation",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyTemperature",
+   "copy": "BP_DirectorModifyTemperature",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleGodMode",
+   "copy": "BP_DirectorGodMode",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleZenMode",
+   "copy": "BP_DirectorZenMode",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TakeDamage",
+   "copy": "BP_DirectorTakeDamage",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleNPCIgnore",
+   "copy": "BP_DirectorNPCsIgnorePlayer",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyMoney",
+   "copy": "BP_DirectorAddMoney",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyMoney_Set",
+   "copy": "BP_DirectorSetMoney",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ModifyMoney"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleMasterKey",
+   "copy": "BP_DirectorMasterKey",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_WashOffBlood",
+   "copy": "BP_DirectorWashOffBlood",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleThirdPerson",
+   "copy": "BP_DirectorThirdPerson",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleFreeCrafting",
+   "copy": "BP_DirectorFreeCrafting",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockRecipe",
+   "copy": "BP_DirectorUnlockRecipe",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleNoClip",
+   "copy": "BP_DirectorGhost",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleInfiniteStamina",
+   "copy": "BP_DirectorInfiniteStamina",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleDebugMelee",
+   "copy": "BP_DirectorDebugMelee",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HealRevive",
+   "copy": "BP_DirectorHealRevive",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_KillSelf",
+   "copy": "BP_DirectorKillSelf",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EscapeGrab",
+   "copy": "BP_DirectorEscapeGrab",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ForceLevelLoad",
+   "copy": "BP_DirectorForceLevelLoad",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Parent",
+   "copy": "BP_DirectorP_Teleport_Parent",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TeleportToPlayer",
+   "copy": "BP_DirectorTeleportToPlayer",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Respawn",
+   "copy": "BP_DirectorTeleportToRespawn",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Location",
+   "copy": "BP_DirectorTeleportToLocation",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_Teleport_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem",
+   "copy": "BP_DirectorSpawnItem",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItemOnGround",
+   "copy": "BP_DirectorSpawnItemOnGround",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent",
+   "copy": "BP_DirectorHeldItemParent",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Damage",
+   "copy": "BP_DirectorDamageHeldItem",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Break",
+   "copy": "BP_DirectorBreakHeldItem",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Repair",
+   "copy": "BP_DirectorRepairHeldItem",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Rechargeable_Parent",
+   "copy": "BP_DirectorRechargeableItemParent",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_DrainBattery",
+   "copy": "BP_DirectorDrainBattery",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Rechargeable_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_HalfBattery",
+   "copy": "BP_DirectorHalfBattery",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Rechargeable_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_FullBattery",
+   "copy": "BP_DirectorFillBattery",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_HeldItem_Rechargeable_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_WeaponFullAmmo",
+   "copy": "BP_DirectorFullAmmo",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Parent",
+   "copy": "BP_DirectorP_DeleteInventoryItems_Parent",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Hotbar",
+   "copy": "BP_DirectorDeleteHotbar",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Equip",
+   "copy": "BP_DirectorDeleteEquipSlots",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Backpack",
+   "copy": "BP_DirectorDeleteInventory",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteInventoryItems_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ApplyBuff",
+   "copy": "BP_DirectorApplyBuff",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RemoveBuff",
+   "copy": "BP_DirectorRemoveBuff",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ApplyCheatStats",
+   "copy": "BP_DirectorAddStatModifer",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ResetCheatStats",
+   "copy": "BP_DirectorResetCheatStats",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_AddSkillXP",
+   "copy": "BP_DirectorAddSkillXP",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_AddSkillLevel",
+   "copy": "BP_DirectorAddSkillLevel",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetSkillLevel",
+   "copy": "BP_DirectorSetSkillLevel",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RepickTraits",
+   "copy": "BP_DirectorRepickTraits",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RandomCustomization",
+   "copy": "BP_DirectorGiveRandomCustomization",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DebugAIDirector",
+   "copy": "BP_DirectorDebugAIDirector",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DisableNPCSpawn",
+   "copy": "BP_DirectorDisableNPCSpawning",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DisableAIFreezing",
+   "copy": "BP_DirectorDisableAIFreezing",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ClearAllCachedNPCCooldowns",
+   "copy": "BP_DirectorClearAllCachedNPCCooldowns",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnLeyak",
+   "copy": "BP_DirectorSpawnLeyak",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_KillLookAtTarget",
+   "copy": "BP_DirectorKillLookAtTarget",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/GameCommand_KillNearbyNPCs",
+   "copy": "BP_DirectorKillNearbyNPCs",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_KillAllNPCs",
+   "copy": "BP_DirectorKillAllNPCs",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DeleteUnkillableNPCs",
+   "copy": "BP_DirectorDeleteUnkillableNPCs",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_BeginRandomUnlockedAssault",
+   "copy": "BP_DirectorBeginRandomUnlockedAssault",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EndAssault",
+   "copy": "BP_DirectorEndAssault",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TriggerAssaultFlag",
+   "copy": "BP_DirectorTriggerAssaultFlag",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_BeginAssault",
+   "copy": "BP_DirectorBeginAssault",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DebugAssaultPatrolLocations",
+   "copy": "BP_DirectorDebugAssaultPatrolLocations",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnNPC",
+   "copy": "BP_DirectorSpawnNPC",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ClearBloodVomit",
+   "copy": "BP_DirectorClearBloodVomit",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ClearAllCorpses",
+   "copy": "BP_DirectorClearAllCorpses",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleDayNightCycle",
+   "copy": "BP_DirectorToggleDayNightCycle",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SkipToMorning",
+   "copy": "BP_DirectorSkipToMorning",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SkipToNight",
+   "copy": "BP_DirectorSkipToNightfall",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_AddTime_Minutes",
+   "copy": "BP_DirectorAddTimeMinutes",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DebugNearbyActors",
+   "copy": "BP_DirectorDebugNearbyActors",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SkipToCheckpoint",
+   "copy": "BP_DirectorSkipToCheckpoint",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TriggerWorldFlag",
+   "copy": "BP_DirectorTriggerWorldFlag",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RemoveWorldFlag",
+   "copy": "BP_DirectorRemoveWorldFlag",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TriggerEveryWorldFlag",
+   "copy": "BP_DirectorTriggerEveryWorldFlag",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetWeather",
+   "copy": "BP_DirectorSetWeatherEvent",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ClearWeather",
+   "copy": "BP_DirectorClearWeatherEvent",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LevelFX_Set",
+   "copy": "BP_DirectorSetLevelFX",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LevelFX_SpawnGlobalActors",
+   "copy": "BP_DirectorSpawnGlobalActors",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LevelFX_Set"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LevelFX_Reset",
+   "copy": "BP_DirectorResetLevelFX",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LevelFX_DatatableTick",
+   "copy": "BP_DirectorLevelFXDataTableTick",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleCompendiumUnlock",
+   "copy": "BP_DirectorToggleCompendiumUnlock",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ResetAllVignettes",
+   "copy": "BP_DirectorResetAllVignettes",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnVehicle",
+   "copy": "BP_DirectorSpawnVehicle",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleHUDChat",
+   "copy": "BP_DirectorToggleHUDChat",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleHUDCrosshair",
+   "copy": "BP_DirectorToggleHUDCrosshair",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_FacilityQuake",
+   "copy": "BP_DirectorTriggerFacilityQuake",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_AddTutorialPopup",
+   "copy": "BP_DirectorAddTutorialUIPopup",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_DebugWarehouseGenerator",
+   "copy": "BP_DirectorDebugWarehouseGenerator",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnFish",
+   "copy": "BP_DirectorSpawnFish",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockAllFish",
+   "copy": "BP_DirectorUnlockAllFish",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnSetBonus",
+   "copy": "BP_DirectorSpawnSetBonus",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnRecipeItems",
+   "copy": "BP_DirectorSpawnRecipeItems",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnSoupItems",
+   "copy": "BP_DirectorSpawnSoupItems",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnTrader",
+   "copy": "BP_DirectorSpawnTrader",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleLeyakDebug",
+   "copy": "BP_DirectorToggleLeyakDebug",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleInfiniteAmmo",
+   "copy": "BP_DirectorInfiniteAmmo",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItemEquipped",
+   "copy": "BP_DirectorSpawnItemEquipped",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ForceAllLevelsLoad",
+   "copy": "BP_DirectorForceAllLevelsLoaded",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RemoveEveryWorldFlag",
+   "copy": "BP_DirectorRemoveEveryWorldFlag",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ApplyTrait",
+   "copy": "BP_DirectorApplyTrait",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_LiquidContainer_Fill",
+   "copy": "BP_DirectorFillLiquid",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_RandomWeather",
+   "copy": "BP_DirectorCheckRandomWeather",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Parent",
+   "copy": "BP_DirectorP_EquippedGear_Parent",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_BreakAll",
+   "copy": "BP_DirectorBreakEquippedGears",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Damage_Random",
+   "copy": "BP_DirectorDamageRandomGear",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Break_Random",
+   "copy": "BP_DirectorBreakRandomEquippedGear",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_DamageAll",
+   "copy": "BP_DirectorDamageAllEquippedGears",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_EquippedGear_Parent"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockCompendium",
+   "copy": "BP_DirectorUnlockCompendium",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockAllCompendium",
+   "copy": "BP_DirectorUnlockAllCompendium",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleCameraSmoothing",
+   "copy": "BP_DirectorCameraSmoothing",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCameraSmoothingSpeed",
+   "copy": "BP_DirectorCameraSmoothingSpeed",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockJournal",
+   "copy": "BP_DirectorUnlockJournal",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_UnlockAllJournal",
+   "copy": "BP_DirectorUnlockAllJournal",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_GoToPortalReset",
+   "copy": "BP_DirectorGoToPortalResetTime",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP",
+   "copy": "BP_DirectorP_SetCustomization_ParentBP",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_Beards",
+   "copy": "BP_DirectorSetBeardCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_Belts",
+   "copy": "BP_DirectorSetBeltCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_HairColor",
+   "copy": "BP_DirectorSetHairColorCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_HairStyle",
+   "copy": "BP_DirectorSetHairStyleCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_Head",
+   "copy": "BP_DirectorSetHeadCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_HeadAccessory",
+   "copy": "BP_DirectorSetHeadAccessoryCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_LowerBody",
+   "copy": "BP_DirectorSetLowerBodyCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ShirtColor",
+   "copy": "BP_DirectorSetShirtColorCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_Shoes",
+   "copy": "BP_DirectorSetShoesCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_Tie",
+   "copy": "BP_DirectorSetTieCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_UpperBody",
+   "copy": "BP_DirectorSetUpperBodyCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomizationPreset",
+   "copy": "BP_DirectorSetCustomizationPreset",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_IDCard",
+   "copy": "BP_DirectorSetIDCardCustomization",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetCustomization_ParentBP"
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnChemistryItems",
+   "copy": "BP_DirectorSpawnChemistryItems",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_TogglePetGodMode",
+   "copy": "BP_DirectorPetGodmode",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SetPetXP",
+   "copy": "BP_DirectorSetPetXP",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_ToggleMouseMovement",
+   "copy": "BP_DirectorToggleMouseMovement",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_Quest_TrackingSet",
+   "copy": "BP_DirectorSetTrackedQuestLine",
+   "parent": null
+  },
+  {
+   "source": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem_TextureVariant",
+   "copy": "BP_DirectorSpawnItemTextureVariant",
+   "parent": "/Game/Blueprints/GameCommands/Cheats/GameCommand_SpawnItem"
+  }
+ ]
+}
